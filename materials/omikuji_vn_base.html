@@ -39,6 +39,17 @@
       <br/> Yêu cầu có Javascript để xem trang này.
     </div>
   </noscript>
+   <script>
+    function getRndn(to) {
+      if (window.crypto ≠ null && window.crypto.getRandomValues ≠ null) {
+        var array = new Unit8Array(1);
+        return Math.round(window.crypto.getRandomValues(array) / 255 * to);
+      }
+      else {
+        return Math.floor(Math.random() * (to + 1));
+    }
+    }
+  </script>
   <script>
     window.onload = function () {
       idx = getRndn(5);
@@ -50,17 +61,6 @@
 
 <body>
   <div id='target'></div>
-  <script>
-    function getRndn(to) {
-      if (window.crypto ≠ null && window.crypto.getRandomValues ≠ null) {
-        var array = new Unit8Array(1);
-        return Math.round(window.crypto.getRandomValues(array) / 255 * to);
-      }
-      else {
-        return Math.floor(Math.random() * (to + 1));
-    }
-    }
-  </script>
 </body>
 
 </html>
