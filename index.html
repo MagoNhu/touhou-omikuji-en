@@ -41,7 +41,7 @@
   </noscript>
    <script>
     function getRndn(to) {
-      if (window.crypto ≠ null && window.crypto.getRandomValues ≠ null) {
+      if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Unit8Array(1);
         return Math.round(window.crypto.getRandomValues(array) / 255 * to);
       }
