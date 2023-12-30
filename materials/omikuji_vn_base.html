@@ -30,7 +30,7 @@
   </style>
   <style id='base64Img'>
     #target {
-      background-image: url('./ materials/Omikuji-Joon.png');
+      background-image: url('');
     }
   </style>
   <noscript>
@@ -41,9 +41,16 @@
   </noscript>
   <script>
     window.onload = function () {
-      idx = getRndn(5);
+       window.reset = function () {
+        setCookie('random_omikuji', '', -1);
+      }
+      var idx = parseInt(getCookie('random_omikuji'));
+      if (isNaN(idx)) {
+        idx = getRndn(5);
+        setCookie('random_omikuji', idx, 1000 * 60 * 60 * 24);
+      }
       target.style.display = 'block';
-      target.style.backgroundPosition = 'top left - ' + (360 * idx) + 'px';
+      target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
     }
   </script>
 </head>
