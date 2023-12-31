@@ -32,7 +32,48 @@
       background-image: url('');
     }
   </style>
+  
   <style>
+    .pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+    <div class="pagination">
+  <a href="https://magonhu.github.io/touhou-omikuji-en/" class="active">EN</a>
+  <a href="https://meigyoku-thmn.github.io/touhou-omikuji/">VI</a>
+  <a href="https://minhanhheartbeat.github.io/touhou-omikuji-zh/">ZH</a>
+</div>
+    </style>
+  
+    <style>
     .button {
   position: absolute;
   left: 5px;
