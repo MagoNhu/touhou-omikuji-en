@@ -42,9 +42,6 @@
 </head>
 <body>
   <div id='target'></div>
-   <center>
-  <button onclick="getRndn(to)">Nhấn vào đây để rút lá</button>
-  </center>
   <script>
     function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
@@ -61,6 +58,9 @@
       target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
     }    
   </script>
+  <center>
+  <button onclick="getRndn(target)">Nhấn vào đây để rút lá</button>
+  </center>
 </body>
 
 </html>
