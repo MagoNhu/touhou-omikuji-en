@@ -42,11 +42,12 @@
 </head>
 <body>
   <div id='target'></div>
-  <script>
-      <center>
+  
+  <center>
   <button onclick="getRndn(to)">Nhấn vào đây để rút lá</button>
   </center>
-    function getRndn(to) {
+  
+  function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Uint8Array(1);
         return Math.round(window.crypto.getRandomValues(array) / 255 * to);
