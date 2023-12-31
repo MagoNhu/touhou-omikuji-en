@@ -56,11 +56,13 @@
         return Math.floor(Math.random() * (to + 1));
     }
     }
-     window.onload = clickRndn () {
+    function clickRndn() {
       idx = getRndn(5);
       target.style.display = 'block';
       target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
-    }    
+    }
+    window.onload = clickRndn;
+  </script>
   </script>
 </body>
 
