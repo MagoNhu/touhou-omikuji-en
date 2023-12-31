@@ -44,7 +44,7 @@
   <div id='target'></div>
   
   <center>
-  <button onclick="getRndn(to)">Nhấn vào đây để rút lá</button>
+  <button onclick="clickRndn()">Nhấn vào đây để rút lá</button>
   </center>
   
   <script>
@@ -57,7 +57,7 @@
         return Math.floor(Math.random() * (to + 1));
     }
     }
-     window.onload = function () {
+     window.onload = clickRndn () {
       idx = getRndn(5);
       target.style.display = 'block';
       target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
