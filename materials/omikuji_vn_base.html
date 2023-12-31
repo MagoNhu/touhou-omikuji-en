@@ -39,12 +39,10 @@
       <br/> Yêu cầu có Javascript để xem trang này.
     </div>
   </noscript>
-   <script>
-     window.onload = function () {
-      idx = getRndn(5);
-      target.style.display = 'block';
-      target.style.backgroundPosition = 'top left - ' + (360 * idx) + 'px';
-    }
+</head>
+<body>
+  <div id='target'></div>
+  <script>
     function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Uint8Array(1);
@@ -54,12 +52,12 @@
         return Math.floor(Math.random() * (to + 1));
     }
     }
-    
+     window.onload = function () {
+      idx = getRndn(5);
+      target.style.display = 'block';
+      target.style.backgroundPosition = 'top left - ' + (360 * idx) + 'px';
+    }    
   </script>
-</head>
-
-<body>
-  <div id='target'></div>
 </body>
 
 </html>
