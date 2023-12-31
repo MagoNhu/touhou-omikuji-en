@@ -43,12 +43,11 @@
 <body>
   <div id='target'></div>
   
-  <center>
-  <button onclick="getRndn(target)">Nhấn vào đây để rút lá</button>
+  <button onclick="clickRndn()">Nhấn vào đây để rút lá</button>
   </center>
   
   <script>
-  function getRndn(to) {
+    function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Uint8Array(1);
         return Math.round(window.crypto.getRandomValues(array) / 255 * to);
@@ -57,7 +56,7 @@
         return Math.floor(Math.random() * (to + 1));
     }
     }
-     window.onload = function () {
+     window.onload = clickRndn () {
       idx = getRndn(5);
       target.style.display = 'block';
       target.style.backgroundPosition = 'top left -' + (350 * idx) + 'px';
