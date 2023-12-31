@@ -46,7 +46,7 @@
   <center>
   <button onclick="getRndn(to)">Nhấn vào đây để rút lá</button>
   </center>
-  
+  <script>
   function getRndn(to) {
       if (window.crypto != null && window.crypto.getRandomValues != null) {
         var array = new Uint8Array(1);
