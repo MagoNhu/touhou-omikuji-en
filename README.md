@@ -50,6 +50,20 @@ https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
 
-/ CHINESE /
+对于那些不知道的人，这是 nguyetkhanhminh 使用 Github Page 创建的 东方 Omikuji EN 网站的开源页面，是由 Meigyoku Thmn 制作的原始页面的修订版本，具有刷新Omikuji 星座运势而不删除的功能像以前一样，附有 Oce Saoemkonoisom 的中文翻译（ZH）以及 nguyetkhanhminh 制作的固定英语和越南语翻译。该网站还使用 Moyazo 的艺术作品（もや造@例大祭あ03ab）作为背景图像。所有此类网站所使用的所有资源均重复使用了《东方补丁中心》的英文原版，该补丁中心是上海爱丽丝团队的产品，从第15th Reitaisai活动中收集而来。对于本网站运营者的联系问题，请发送电子邮件至：deomom129@gmail.com
+
+外部链接归属：
+
+- Meigyoku Thmn 构建的原始网站：
+https://meigyoku-thmn.github.io/touhou-omikuji/
+
+- 东方补丁中心原始资源页面（错误链接）：
+https://cdn.opensrc.club/omikuji.html（Facebook页面：https://www.facebook.com/403605076365745/posts/1777025592357013）
+
+- 使用的背景图片，由艺术家Moyazo（もや造@例大祭あ03ab）绘制：
+https://www.pixiv.net/en/artworks/62012800（艺术家的Pixiv帐户：https://www.pixiv.net/en） /用户/12363124）
+
+- 第15th Reitaisai 事件中销售的上海爱丽丝之队的神签产品信息：
+https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
