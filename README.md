@@ -23,6 +23,8 @@ https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
 
+
+
 =================================
 
 For those who don't know, this is the Open Source page of Touhou Omikuji EN website created by nguyetkhanhminh using Github Page, a revised version of the original page made by Meigyoku Thmn with the feature to refresh Omikuji horoscope without deleting cookies as before, accompanied by a Chinese translation (ZH) by Oce Saoemkonoisom alongside the fixed English and Vietnamese translations made by nguyetkhanhminh. The website also uses Moyazo's artwork (もや造@例大祭あ03ab) as background images. All resources used by all of these kind of website are reused from the original English version of Touhou Patch Center, which is the product of Team Shanghai Alice, collected from the 15th Reitaisai event. For contact issues to who operates this website, please send an email to: deomom129@gmail.com
@@ -42,6 +44,9 @@ https://www.pixiv.net/en/artworks/62012800 (artist's Pixiv account: https://www.
 https://en.touhouwiki.net/wiki/Miscellaneous_illustrations_by_ZUN#Omikuji
 
 =================================
+
+
+
 
 =================================
 
