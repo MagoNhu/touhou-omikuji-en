@@ -1,5 +1,6 @@
 # Touhou-Omikuji-Web
 From Reitaisai 15 - Touhou Omikuji
+visit the website at: https://magonhu.github.io/touhou-omikuji-en/
 
 [ VI | EN | ZH ]
 
