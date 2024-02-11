@@ -3,6 +3,8 @@ From Reitaisai 15 - Touhou Omikuji
 
 visit the website at: https://magonhu.github.io/touhou-omikuji-en/
 
+our facebook page: https://www.facebook.com/miyoi.tea.house
+
 [ VI | EN | ZH ]
 
 =================================
